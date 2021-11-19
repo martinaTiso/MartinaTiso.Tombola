@@ -41,9 +41,10 @@ namespace MartinaTiso.Tombola
 
                 }
                 Console.WriteLine($"i numeri sono:{inserimentoNum[i]}");
-                return inserimentoNum;
+                
 
             }
+            return inserimentoNum;
         }
         internal static int[] SorteggiareNum()
         {
